@@ -1,0 +1,42 @@
+/* Add some space in the static content sections */
+
+section.container.static {
+  padding: 40px 0;
+}
+
+/* Check out the universal background specifications in this style rule. Here we are saying that our images are big enough to not repeat, we want them to take up as much space as they're given, to stay put (fixed), and to position the image in the middle of the content provided */
+
+section.container.parallax {
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-attachment: fixed;
+}
+
+/* Style the h1 so that is covers the entire parallax image - note the line height */
+
+section.container.parallax h1 {
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 600px;
+  color: rgba(255,255,255,0.8);
+  font-family: sans-serif;
+  text-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+section.container.parallax-1 {
+  background-image: url('./images/bg_1.jpeg')
+}
+
+section.container.parallax-2 {
+  background-image: url('./images/bg_2.jpeg')
+}
+
+section.container.parallax-3 {
+  background-image: url('./images/bg_3.jpeg')
+}
+
+section.container.parallax-4 {
+  background-image: url('./images/bg_4.jpeg')
+}
